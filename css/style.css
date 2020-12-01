@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap');
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #e5e6af;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+   
+}
+h2 ::before{
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 3px;
+    background: #81683c;
+    left: 0;
+    bottom: 0;
+}
+
+
+
+header .bg-port-m{
+    background: #e5e6af;
+}
+
+header nav .container .navbar-collapse{
+    justify-content: flex-end;
+}
+
+header .navbar-dark .navbar-nav .nav-link{
+    color: #171c44;
+}
+
+header .navbar-dark .navbar-nav .nav-link:hover{
+    color: #858585;
+}
+
+header .navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+}
+
+#manuelpoveda{
+    width: 100%;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    text-align: center;
+    background:  #e5e6af ;
+}
+#manuelpoveda h2{
+    color: #171c44;
+    font-size: -webkit-xxx-large;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+}
+#manuelpoveda h2::before{
+    position: absolute;
+    content: "";
+    width: 40%;
+    height: 5px;
+    background: #81683c;
+    left: 30%;
+    bottom: 0;
+    margin-bottom: -15px;
+}
+
+
+
+#manuelpoveda p{
+    margin-top: 30px;
+    color: #171c44;
+}
+#habilidades{
+    width: 100%;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    text-align: center;
+    background:  #e5e6af ;
+}
+#habilidades h2{
+    text-align: center;
+    color: #171c44;
+    font-size: -webkit-xxx-large;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+}
+#habilidades h2::before{
+    position: absolute;
+    content: "";
+    width: 40%;
+    height: 5px;
+    background: #81683c;
+    left: 30%;
+    bottom: -30%;
+}
+#habilidades .row .col-card-habilidades{
+    width: 32%;
+    display: inline-block;
+    position: relative;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+#habilidades .row .col-card-habilidades img{
+    transition: .4s;
+   width: 60%;
+}
+#habilidades .row .col-card-habilidades img:hover{
+    transform: scale(1.2);
+}
+#habilidades .row .col-card-habilidades h5{
+    color: #171c44;
+}
+
+#habilidades .row .col-card-habilidades2{
+    width: 32%;
+    display: inline-block;
+    position: relative;
+    margin-top: 40px;
+    text-align: center;
+}
+#habilidades .row .col-card-habilidades2 img{
+    transition: .4s;
+    width: 60%;
+}
+#habilidades .row .col-card-habilidades2 img:hover{
+    transform: scale(1.2);
+}
+#habilidades .row .col-card-habilidades2 h5{
+    color: #171c44;
+}
+
+#habilidades .row .col-card-habilidades3{
+    width: 32%;
+    display: inline-block;
+    position: relative;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+#habilidades .row .col-card-habilidades3 img{
+    transition: .4s;
+    width: 60%;
+}
+#habilidades .row .col-card-habilidades3 img:hover{
+    transform: scale(1.2);
+}
+#habilidades .row .col-card-habilidades3 h5{
+    color: #171c44;
+}
+
+#experencia{
+    background:  #171c44 ;
+   
+}
+#experencia .row  .col-md-4 img{
+    vertical-align: middle;
+    border-style: none;
+    width: 110%;
+}
+#experencia .row .col-md-6{
+    width: 50%;
+    position: relative;
+    margin-top: 40px;
+    text-align: center;
+    justify-content: flex-end;
+
+}
+#experencia .row .col-md-6 h2{
+    font-size: -webkit-xxx-large;
+    padding: 80px 45px;
+    margin-left: 60%;
+    color: #bc9e6c;
+    position: relative;
+    margin: 0 50%;
+    display: inline-block;
+}
+#experencia .row .col-md-6 h2::before{
+    position: absolute;
+    content: "";
+    width: 30%;
+    height: 5px;
+    background: #bc9e6c ;
+    left: 33%;
+    bottom: 29%;
+    margin-top: -50px;
+}
+#experencia .row .col-md-6 p{
+    font-size: large;
+    margin-left: 55%;
+    color: #e5e6af;
+    margin-top: -4%;
+}
+
+#estudios{
+    width: 100%;
+    position: relative;
+    width: 100%;
+    padding: 40px 0;
+    background:  #e5e6af ;
+}
+#estudios h2{
+    color: #171c44;
+    font-size: -webkit-xxx-large;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+#estudios h2::before{
+    position: absolute;
+    content: "";
+    width: 25%;
+    height: 5px;
+    background: #81683c;
+    left: 37%;
+    bottom: -30%;
+}
+#estudios .row{
+    justify-content: center;
+    margin-top: 45px;
+}
+#estudios .tarjeta-m{
+    margin-top: 34px;
+    text-align: center;
+}
+
+
+#estudios  .tarjeta-m .tittle{
+    padding: 8px 10px;
+    background: #bc9e6c;
+    margin-bottom: -2%;
+}
+#estudios .tarjeta-m .cont-text{
+    padding: 25px 10px;
+    background: #171c44;
+    height: 30%;
+}
+
+#estudios .tarjeta-m .cont-text p{
+    font-size: 115%;
+    color:#e5e6af ;
+}
+
+#portafolio{
+    width: 100%;
+    position: relative;
+    width: 100%;
+    padding: 40px 0;
+    background:  #e5e6af ;
+}
+#portafolio .row{
+    justify-content: center;
+    margin-top: 45px;
+}
+#portafolio  .tarjeta-a{
+    margin-top: 34px;
+    text-align: center;
+    
+}
+
+#portafolio .tarjeta-a img{
+    transition: .4s;
+    ;
+}
+#portafolio .tarjeta-a img:hover{
+    transform: scale(1.2);
+}
+#portafolio .tarjeta-a .cont-text p{
+    font-size: 115%;
+    color:#171c44 ;
+}
+
+#portafolio h2{
+    color: #171c44;
+    font-size: -webkit-xxx-large;
+    position: relative;
+    margin: 0 auto;
+    padding: 14% 12%;
+    left: -110%;
+}
+#portafolio h2::before{
+    position: absolute;
+    content: "";
+    width: 64%;
+    height: 5px;
+    background: #171c44 ;
+    left: 4%;
+    bottom: 0%;
+}
+
+#portafolio h2::after{
+    position: absolute;
+    content: "";
+    width: 64%;
+    height: 5px;
+    background: #171c44 ;
+    left: 4%;
+    top: 2%;
+}
+footer{
+    width: 100%;
+    background: #171c44;
+    padding: 30px 0 70px;
+    text-align: center;
+
+}
+footer p{
+     color:  #e5e6af ;
+     margin-top: 30px;
+}
+footer .row{
+    justify-content: center;
+    margin-top: 35px;
+    display: inline-flex;
+    padding: 0 10%;
+    margin-left: -5%;
+    flex-flow: revert;
+}
+
+footer .row .col-card-3 {
+    width: 32%;
+    display: inline-block;
+    position: relative;
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer .row .col-card-3  img{
+    width: 35px;
+    margin-left: 35px;
+    transition: .4s;
+}
+
+footer .row .col-card-3  img:hover{
+    transform: scale(1.2);
+}
+
+
+/* CODIGO RESPONSIVE TABLET */
+@media screen and (max-width:990px) and (min-width:768px){
+    .container{
+        overflow: hidden;
+    }
+    body{
+        background: #e5e6af;
+    }
+
+    #manuelpoveda h2{
+        margin: 0 30px;
+    }
+
+     #experencia .row .col-md-4 img {
+        width: 200%;
+     }
+
+     #estudios img{
+        object-position: -90px;
+        
+     }
+
+     #portafolio h2{
+        left: 30px;
+        padding: 20px 0;
+     }
+
+     #portafolio .tarjeta-a img{
+        object-position: 38px;
+         margin-left: -45px;
+     }
+
+     #experencia .row .col-md-6 p{
+        padding: 10px 80px;
+     }
+
+}
+
+@media screen and (max-width:1336px) and (min-width:769px){
+    .container{
+        overflow: hidden;
+    }
+    #experencia .row .col-md-6 h2{
+        left: -50px;
+    }
+    #experencia .row .col-md-6 p{
+        margin-right: 50px;
+    }
+    #estudios img{
+    object-position: -37px;
+    }
+}
+
+/* CODIGO RESPONSIVE PHONE */
+@media screen and (max-width:600px) and (min-width:200px){
+    .container{
+        overflow: hidden;
+    }
+    body{
+       background: #e5e6af;
+    }
+    #experencia .row .col-md-4 img {
+        margin-left: -59px;
+        width: 122%;
+    }
+    header #carouselheader{
+        margin-top: 60px;
+    }
+    #manuelpoveda h2{
+        font-size: 44px;
+    }
+
+    #experencia .row .col-md-6 h2{
+        margin-left: 8px;
+        bottom: 30px;
+    }
+    #experencia .row .col-md-6 p{
+        margin-top: -50px;
+        margin-right: -100px;
+    }
+    
+
+    #habilidades .row .col-card-habilidades h5{
+        font-size: 14px;
+    }
+    #habilidades .row .col-card-habilidades2 h5{
+        font-size: 14px;
+    }
+    #habilidades .row .col-card-habilidades3 h5{
+        font-size: 14px;
+    }
+     #portafolio h2{
+        left: 45px;
+     }
+
+    #manuelpoveda p{
+        text-align: left;
+    }
+
+}
+
+@media screen and (max-width:568px) and (min-width:320px){
+    #experencia .row .col-md-4 img{
+        width: 126%;
+    }
+    #experencia .row .col-md-6 h2{
+        margin-left: -6px;
+    }
+    #experencia .row .col-md-6 p{
+        margin-left: 50px;
+    }
+    footer .row{
+        margin-left: -45px
+    }
+    #portafolio h2{
+        left: 38px;
+    }
+
+}
